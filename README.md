@@ -212,4 +212,3 @@ Também é possível rodar `./exclui_chaves` e digitar a entrada no teclado.
 - Uma chave pode cair num compartimento vazio (tab[h] igual a NULL). Nesse caso não há registro para examinar
 - Quando o registro excluído é o primeiro da lista, é o próprio compartimento tab[h] que passa a apontar para o registro seguinte. Nos demais casos, quem muda é o campo prox do registro anterior
 - Não use a função busca antes de excluir, pois ela não imprime os registros examinados e faria a lista ser percorrida duas vezes
-- Veja outras dicas em http://www.ic.uff.br/~vanessa/courses/runcodes.html
